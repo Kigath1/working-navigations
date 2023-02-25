@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>this is a recape for codecademy</title>
+    <h1>FOR ALL THE THINGS I HAVE LEARNT    </h1>
+    <link rel="stylesheet" href="forall.css">
+    <style>
+        table,th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ol>
+            <li><a href="#image">Image</a></li>
+            <li><a href="#paragraph">Paragragh</a></li>
+            <li><a href="#forms">Table and textbox</a></li>
+            <li><a href="#radios">Selecting your age</a></li>
+
+        </ol>
+    </nav>
+    <div id="image">
+        <img src="picone.png" alt="its just a screenshot i have added from my collection">
+        <p>the image below should be styled as i continue learning</p>
+
+    </div>
+    <div id="paragraph">
+        <h3>this is one of the paragraphs i have in the website </h3>
+        <p>this is the paragraph i will be using Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+            Quasi delectus vero, neque officiis sapiente, odio nihil sint est esse quis dolor, deserunt eum hic nesciunt?<br>
+             Quisquam dolorem quod fuga consectetur dolor, sunt adipisci, similique soluta temporibus <br> sint quam necessitatibus
+             recusandae accusamus asperiores autem, eveniet aperiam veritatis nobis praesentium. Iure, officiis.</p>
+    </div>
+    <div id="forms">
+        <form >
+            <table >
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Member Name</th>
+                        <th>Purpose</th>
+                        <th>Date in </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Karanja</td>
+                        <td>Cleaner</td>
+                        <td>Everyday</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Lamtho</td>
+                        <td>Security</td>
+                        <td>Weekends</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Taramkoth</td>
+                        <td>Cook</td>
+                        <td>Weekdays</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Wakavinye</td>
+                        <td>Entertainment</td>
+                        <td>Twice a Week</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Tambonio</td>
+                        <td>Gardener</td>
+                        <td>Once a month</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Purity</td>
+                        <td>Receptionist</td>
+                        <td>Everyday</td>
+                    </tr>
+                </tbody>
+            </table><br> <br>
+            <label for="yourname">Confirm you are a worker: </label><br>
+            <input type="text" name="firstname" id="yourname"><br>
+            <br>
+            <label for="task">what you do in the company: </label><br>
+            <input type="text" name="task" id="task"><br>
+            
+        </form>
+    </div>
+    <div id="radios">
+        <p>To the following select your age category</p>
+        <form >
+            <ol>
+                <li><input type="radio" name="age" id="first" checked>
+                    <label for="first">Below 18yrs </label></li>
+                <li><input type="radio" name="age" id="second">
+                    <label for="second">Age 18yrs</label></li>
+                <li><input type="radio" name="age" id="third">
+                    <label for="third">Above 18yrs</label></li>
+
+            </ol>
+        </form>
+    </div>
+</body>
+</html>
